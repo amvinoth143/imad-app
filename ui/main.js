@@ -1,6 +1,6 @@
 //counter code
 
-var button = document.getElementById('counter');
+
 
 
 var submit = document.getElementById('submit-btn');

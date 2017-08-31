@@ -2,7 +2,11 @@
 
 var button = document.getElementById('counter');
 
-button.onclick = function(){
+var nameInput=document.getElementById('name');
+var name = nameInput.value;
+var submit = document.getElementById('submit-btn');
+
+submit.onclick = function(){
   //Create the request object
   var request = new XMLHttpRequest();
   //Capture the response and store it in a variable
